@@ -2,6 +2,7 @@ window.onload = function() {
 
   function init(){
 //reset opacity and pause time
+
     cta.style.opacity = '0';
     headlineWrapper.style.opacity = '0';
     claimWrapper.style.opacity = '0';
