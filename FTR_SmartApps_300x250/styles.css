@@ -1,0 +1,238 @@
+/*FTR COLORs Navy - #17355E;  Red - #DF4841;  Marigold - #FFBA16;  Aqua - 74CDDE; */
+
+  html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-weight: 400 !important;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nexa', sans-serif;
+    font-size: 10px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+
+  #clickTagLayer{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1004;
+  }
+
+  .container {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 300px;
+    height: 250px;
+    background-color: #DF4841;
+    border: 1px solid #58595B;
+    overflow: hidden;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  #headlineWrapper{
+    position: absolute;
+    left: 20px;
+    top:10px;
+    width:260px;
+    height:75px;
+    opacity: 0;
+    z-index: 301;
+    overflow: hidden;
+  }
+
+  .headline{
+    position: relative;
+    font-family: 'Nexa', sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    color:#FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    width: inherit;
+    height: inherit;
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+  }
+
+
+  #claimWrapper{
+    position: absolute;
+    left: 20px;
+    top:10px;
+    width:260px;
+    height:75px;
+    opacity: 0;
+    z-index: 302;
+    overflow: hidden;
+  }
+
+  .claim{
+    position: relative;
+    font-family: 'Nexa', sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    color:#FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    width: inherit;
+    height: inherit;
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  #subheadContainer{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    width:260px;
+    height:50px;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 361;
+  }
+
+  .subhead{
+    font-size: 14px;
+    font-family: 'NexaBold', sans-serif;
+    color:#FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    width: inherit;
+/*    height: inherit;*/
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  #productWrapper{
+      opacity: 0;
+      top:20px;
+      left:20px;
+      position: absolute;
+      height: 75px;
+      width:280px;
+      overflow: hidden;
+      z-index: 119;
+
+    }
+
+    .productCopy{
+      font-size: 20px;
+      color:#DF4841;
+      font-family: 'NexaBold', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      width: inherit;
+      height: inherit;
+      display: table-cell;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    .signalA{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width:100%;
+      height:auto;
+      opacity: 0;
+    }
+
+
+
+
+  .foregroundImgWrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:300px;
+    height:250px;
+  }
+
+  #foregroundImg{
+    opacity: 0;
+    z-index:160;
+    background-repeat: no-repeat;
+  }
+
+  .middleImgWrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:300px;
+    height:250px;
+  }
+
+  #middleImg{
+    opacity: 0;
+    z-index:160;
+    background-repeat: no-repeat;
+  }
+
+  .backgroundImgWrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:300px;
+    height:250px;
+  }
+
+  #backgroundImg{
+    opacity: 0;
+    z-index:160;
+    background-repeat: no-repeat;
+  }
+
+
+  .fLogo{
+    position: absolute;
+    width:28%;
+    top: 202px;
+    right:20px;
+    opacity: 1;
+    z-index: 399;
+  }
+
+
+  .cta{
+     position: absolute;
+     opacity: 0;
+     z-index: 315;
+     top: 155px;
+     left:  20px;
+     width: 121px;
+     height: 20px;
+     background-color: #FFBA16;
+     border-radius: 5px;
+   }
+
+  .ctaLabel{
+    position: relative;
+    font-family: 'Nexa', sans-serif;
+    color:#17355E;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    width: inherit;
+    height: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
