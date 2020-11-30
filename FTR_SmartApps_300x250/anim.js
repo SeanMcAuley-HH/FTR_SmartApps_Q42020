@@ -11,6 +11,7 @@ window.onload = function() {
 var tl = new TimelineLite({onComplete:animComplete});
 
 
+
 tl.to(signalA, .125, {ease:Sine.easeInOut, opacity:1, delay:0});
 tl.to(signalB, .125, {ease:Sine.easeInOut, opacity:1, delay:.0});
 tl.to(signalC, .125, {ease:Sine.easeInOut, opacity:1, delay:0});
